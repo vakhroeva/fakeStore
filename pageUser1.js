@@ -175,7 +175,7 @@ async function createProductElements() {
             div.innerHTML = `
                 <img src="${product.image}" class="card-img-top img-fluid" alt="Image" style="height: 50vh;">
                 <div class="card-body d-flex flex-column justify-content-between">
-                    <a href="/pageUser3.html?id=${product.id}" class="text-decoration-none">
+                    <a href="pageUser3.html?id=${product.id}" class="text-decoration-none">
                         <h5 class="card-title text-truncate">${product.title}</h5>
                     </a>
                     <p class="card-text">$${product.price}</p>
