@@ -105,7 +105,7 @@ async function drawUserCarts () {
                         </div>
                         <div class="col-7 col-md-8 col-lg-9">
                             <div class="card-body">
-                                <a class="text-decoration-none" href = "/pageUser3.html?id=${product.id}">
+                                <a class="text-decoration-none" href = "pageUser3.html?id=${product.id}">
                                     <h3 class="card-title fs-2">${productInfo.title}</h3>
                                 </a>
                                 <div>
