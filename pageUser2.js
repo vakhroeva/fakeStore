@@ -64,7 +64,7 @@ async function drawUserCarts () {
                                 <img src="${productInfo.image}" class="img-fluid rounded-start cover" alt="Product Image" style=" height: 30vh;">
                             </div>
                             <div class="col-7 col-md-8 col-lg-9">
-                                <a class="text-decoration-none" href = "/pageUser3.html?id=${product.productId}">
+                                <a class="text-decoration-none" href = "pageUser3.html?id=${product.productId}">
                                     <div class="card-body">
                                         <h3 class="card-title fs-2">${productInfo.title}</h3>
                                         <div class="d-flex flex-row justify-content-between">
